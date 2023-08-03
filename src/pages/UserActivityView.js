@@ -1,6 +1,6 @@
 import Layout from "../components/Layout"
-import { useParams } from "react-router-dom"
-import { useState, useEffect } from "react"
+// import { useParams } from "react-router-dom"
+import { useState} from "react"
 
 import { DemoContainer } from '@mui/x-date-pickers/internals/demo'
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
@@ -13,7 +13,7 @@ import UserActivityDetail from "../containers/UserActivityDetail"
 function UserActivityView() {
   const [ startDateTimeValue, setStartDateTimeValue ] = useState(false)
   const [ endDateTimeValue, setEndDateTimeValue ] = useState(false)
-  const { userID } = useParams()
+//   const { userID } = useParams()
 
     const onStartChange = (newValue) => {
         setStartDateTimeValue(newValue.toISOString())

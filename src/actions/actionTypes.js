@@ -1,2 +1,3 @@
 export const GET_USERS = 'GET_USERS'
 export const SET_USER_ACTIVITY = 'SET_USER_ACTIVITY'
+export const SET_OBJECT_DATA = 'SET_OBJECT_DATA'

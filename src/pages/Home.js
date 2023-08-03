@@ -10,7 +10,7 @@ function Home() {
             <p className="text-gray-800 mt-2">Revolutionalizing customer service one click at a time.</p>
             <br />
             <a href="/users" className='text-sky-800'>View Users</a>
-            <a href="">Dashboard</a>
+            <a className='text-sky-800' href="/dashboard">Dashboard</a>
         </div>
     </div>    
   )

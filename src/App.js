@@ -2,8 +2,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import Home from './pages/Home'
 import Test from './pages/Test'
-import UserListView from './pages/UserListView';
-import UserActivityView from './pages/UserActivityView';
+import UserListView from './pages/UserListView'
+import UserActivityView from './pages/UserActivityView'
+import Dashboard from './pages/Dashboard'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route exact path='/users' Component={UserListView}/>
         <Route exact path='/user/activity/:userID' Component={UserActivityView}/>
         <Route exact path='/test' Component={Test}/>
+        <Route exact path='/dashboard'  Component={Dashboard}/>
       </Routes>
     </BrowserRouter>
   );

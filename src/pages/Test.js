@@ -1,47 +1,54 @@
-import React, {useState} from 'react'
-import { connect } from 'react-redux'
-
-import TestDragItem from '../components/TestDragItem'
-import TestDropContain from '../components/TestDropContain'
-import { getUsers } from '../actions/user/userActions'
-
-
-function Test({ state }) {
-  const [droppedItems, setDroppedItems] = useState([]);
-
-  console.log(state)
-
-  const handleDrop = (itemName) => {
-    setDroppedItems([...droppedItems, itemName]);
+import React from "react";
+function Test() {
+  const [context, setContext] = React.useState(false);
+  const [xYPosistion, setXyPosistion] = React.useState({ x: 0, y: 0 });
+  const showNav = (event) => {
+    event.preventDefault();
+    setContext(false);
+    const positionChange = {
+      x: event.pageX,
+      y: event.pageY,
+    };
+    setXyPosistion(positionChange);
+    setContext(true);
   };
-
+  const hideContext = (event) => {
+    setContext(false);
+  };
+  const [chosen, setChosen] = React.useState();
+  const initMenu = (chosen) => {
+    setChosen(chosen);
+  };
   return (
-    <div>
-      <h1>Drag and Drop Example</h1>
-      <div style={{ display: 'flex', gap: '16px' }}>
-        <TestDragItem name="Item 1" />
-        <TestDragItem name="Item 2" />
-        <TestDragItem name="Item 3" />
+    <>
+      <h2 className="mb-3">React Right Click Context Menu Example</h2>
+      <div
+        className="contextContainer"
+        onContextMenu={showNav}
+        onClick={hideContext}
+      >
+        {chosen && <h1>"{chosen}" is chosen</h1>}
+        {context && (
+          <div
+            style={{ top: xYPosistion.y, left: xYPosistion.x }}
+            className="rightClick"
+          >
+            <div className="menuElement" onClick={() => initMenu("Refactor")}>
+              Refactor
+            </div>
+            <div className="menuElement" onClick={() => initMenu("Cut")}>
+              Cut
+            </div>
+            <div className="menuElement" onClick={() => initMenu("Copy")}>
+              Copy
+            </div>
+            <div className="menuElement" onClick={() => initMenu("Paste")}>
+              Paste
+            </div>
+          </div>
+        )}
       </div>
-      <TestDropContain onDrop={handleDrop} />
-      <div>
-        <h3>Dropped Items:</h3>
-        <ul>
-          {droppedItems.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-      </div>
-    </div>
+    </>
   );
-};
-
-const mapStateToProps = (state) => {
-  return {
-    state: state,
-  }
 }
-
-export default connect(mapStateToProps, { getUsers })(
-  Test
-)
+export default Test;

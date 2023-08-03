@@ -1,6 +1,7 @@
 - Create Loading Reducer with Animation
 - Dynamic Authorization Feature: Use Catch in call functions to detect token expiration and call a reauthorization function to reset token state
 - Layout Center String Interpolation
+- Onclose Save Alert and Save Mechanism
 
 Tasks:
 - List of users for each division. Filter by division. Filter by status(OnQueue, OffQueue)
