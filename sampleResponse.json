@@ -1,0 +1,926 @@
+{
+    "systemToOrganizationMappings": {
+        "AVAILABLE": [
+            "6a3af858-942f-489d-9700-5f9bcdcdae9b"
+        ],
+        "BUSY": [
+            "31fe3bac-dea6-44b7-bed7-47f91660a1a0"
+        ],
+        "ON_QUEUE": [
+            "e08eaf1b-ee47-4fa9-a231-1200e284798f"
+        ],
+        "OFFLINE": [
+            "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5"
+        ]
+    },
+    "results": [
+        {
+            "group": {
+                "userId": "2a0725c4-b74f-4b69-b363-bb7020d73bc6"
+            },
+            "data": [
+                {
+                    "interval": "2023-07-01T00:00:00.000Z/2023-07-01T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-01T12:00:00.000Z/2023-07-02T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-02T00:00:00.000Z/2023-07-02T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-02T12:00:00.000Z/2023-07-03T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-03T00:00:00.000Z/2023-07-03T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-03T12:00:00.000Z/2023-07-04T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-04T00:00:00.000Z/2023-07-04T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-04T12:00:00.000Z/2023-07-05T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-05T00:00:00.000Z/2023-07-05T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-05T12:00:00.000Z/2023-07-06T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-06T00:00:00.000Z/2023-07-06T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-06T12:00:00.000Z/2023-07-07T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-07T00:00:00.000Z/2023-07-07T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-07T12:00:00.000Z/2023-07-08T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-08T00:00:00.000Z/2023-07-08T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-08T12:00:00.000Z/2023-07-09T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-09T00:00:00.000Z/2023-07-09T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-09T12:00:00.000Z/2023-07-10T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-10T00:00:00.000Z/2023-07-10T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-10T12:00:00.000Z/2023-07-11T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-11T00:00:00.000Z/2023-07-11T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "e08eaf1b-ee47-4fa9-a231-1200e284798f",
+                            "stats": {
+                                "sum": 793752
+                            }
+                        },
+                        {
+                            "metric": "tAgentRoutingStatus",
+                            "qualifier": "INTERACTING",
+                            "stats": {
+                                "sum": 480063
+                            }
+                        },
+                        {
+                            "metric": "tAgentRoutingStatus",
+                            "qualifier": "IDLE",
+                            "stats": {
+                                "sum": 313217
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "6a3af858-942f-489d-9700-5f9bcdcdae9b",
+                            "stats": {
+                                "sum": 9502183
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 32904065
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-11T12:00:00.000Z/2023-07-12T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "e08eaf1b-ee47-4fa9-a231-1200e284798f",
+                            "stats": {
+                                "sum": 726193
+                            }
+                        },
+                        {
+                            "metric": "tAgentRoutingStatus",
+                            "qualifier": "IDLE",
+                            "stats": {
+                                "sum": 726206
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "6a3af858-942f-489d-9700-5f9bcdcdae9b",
+                            "stats": {
+                                "sum": 42473807
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-12T00:00:00.000Z/2023-07-12T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "e08eaf1b-ee47-4fa9-a231-1200e284798f",
+                            "stats": {
+                                "sum": 1921677
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "31fe3bac-dea6-44b7-bed7-47f91660a1a0",
+                            "stats": {
+                                "sum": 32346
+                            }
+                        },
+                        {
+                            "metric": "tAgentRoutingStatus",
+                            "qualifier": "IDLE",
+                            "stats": {
+                                "sum": 1922208
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "6a3af858-942f-489d-9700-5f9bcdcdae9b",
+                            "stats": {
+                                "sum": 30269251
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 10976726
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-12T12:00:00.000Z/2023-07-13T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "6a3af858-942f-489d-9700-5f9bcdcdae9b",
+                            "stats": {
+                                "sum": 2113000
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 41087000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-13T00:00:00.000Z/2023-07-13T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "6a3af858-942f-489d-9700-5f9bcdcdae9b",
+                            "stats": {
+                                "sum": 2926874
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 40273126
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-13T12:00:00.000Z/2023-07-14T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "6a3af858-942f-489d-9700-5f9bcdcdae9b",
+                            "stats": {
+                                "sum": 112105
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43087895
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-14T00:00:00.000Z/2023-07-14T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "6a3af858-942f-489d-9700-5f9bcdcdae9b",
+                            "stats": {
+                                "sum": 1056307
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 42143693
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-14T12:00:00.000Z/2023-07-15T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-15T00:00:00.000Z/2023-07-15T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "6a3af858-942f-489d-9700-5f9bcdcdae9b",
+                            "stats": {
+                                "sum": 818175
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 42381825
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-15T12:00:00.000Z/2023-07-16T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-16T00:00:00.000Z/2023-07-16T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "6a3af858-942f-489d-9700-5f9bcdcdae9b",
+                            "stats": {
+                                "sum": 1053938
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 42146062
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-16T12:00:00.000Z/2023-07-17T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-17T00:00:00.000Z/2023-07-17T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-17T12:00:00.000Z/2023-07-18T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-18T00:00:00.000Z/2023-07-18T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-18T12:00:00.000Z/2023-07-19T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-19T00:00:00.000Z/2023-07-19T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-19T12:00:00.000Z/2023-07-20T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-20T00:00:00.000Z/2023-07-20T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-20T12:00:00.000Z/2023-07-21T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-21T00:00:00.000Z/2023-07-21T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-21T12:00:00.000Z/2023-07-22T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-22T00:00:00.000Z/2023-07-22T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-22T12:00:00.000Z/2023-07-23T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-23T00:00:00.000Z/2023-07-23T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-23T12:00:00.000Z/2023-07-24T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-24T00:00:00.000Z/2023-07-24T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-24T12:00:00.000Z/2023-07-25T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-25T00:00:00.000Z/2023-07-25T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-25T12:00:00.000Z/2023-07-26T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-26T00:00:00.000Z/2023-07-26T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-26T12:00:00.000Z/2023-07-27T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-27T00:00:00.000Z/2023-07-27T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-27T12:00:00.000Z/2023-07-28T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-28T00:00:00.000Z/2023-07-28T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "6a3af858-942f-489d-9700-5f9bcdcdae9b",
+                            "stats": {
+                                "sum": 2421967
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 40778033
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-28T12:00:00.000Z/2023-07-29T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "6a3af858-942f-489d-9700-5f9bcdcdae9b",
+                            "stats": {
+                                "sum": 2744129
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 40455871
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-29T00:00:00.000Z/2023-07-29T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-29T12:00:00.000Z/2023-07-30T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-30T00:00:00.000Z/2023-07-30T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-30T12:00:00.000Z/2023-07-31T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-31T00:00:00.000Z/2023-07-31T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "6a3af858-942f-489d-9700-5f9bcdcdae9b",
+                            "stats": {
+                                "sum": 1557141
+                            }
+                        },
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 41642859
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-07-31T12:00:00.000Z/2023-08-01T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-08-01T00:00:00.000Z/2023-08-01T12:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "interval": "2023-08-01T12:00:00.000Z/2023-08-02T00:00:00.000Z",
+                    "metrics": [
+                        {
+                            "metric": "tOrganizationPresence",
+                            "qualifier": "ccf3c10a-aa2c-4845-8e8d-f59fa48c58e5",
+                            "stats": {
+                                "sum": 43200000
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

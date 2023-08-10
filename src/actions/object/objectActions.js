@@ -1,4 +1,4 @@
-import { SET_OBJECT_DATA } from "../actionTypes"
+import { SET_OBJECT_DATA, SET_DISPLAY_POPUP } from "../actionTypes"
 
 
 export const setObjects = (data) => ({
@@ -6,4 +6,12 @@ export const setObjects = (data) => ({
     payload: {
         data
     }
+})
+
+export const setDisplayPopup = (value1, value2) => ({
+    type: SET_DISPLAY_POPUP,
+    payload: {
+        value1,
+        value2,
+    },
 })

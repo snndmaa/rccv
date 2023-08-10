@@ -5,6 +5,7 @@ import Test from './pages/Test'
 import UserListView from './pages/UserListView'
 import UserActivityView from './pages/UserActivityView'
 import Dashboard from './pages/Dashboard'
+import Login from './pages/Login'
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route exact path='/' Component={Home}/>
+        <Route exact path='/login' Component={Login}/>
         <Route exact path='/users' Component={UserListView}/>
         <Route exact path='/user/activity/:userID' Component={UserActivityView}/>
         <Route exact path='/test' Component={Test}/>

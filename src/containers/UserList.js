@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 
 import { getUsers } from '../actions/user/userActions'
 import { fetchUsers } from '../actions/user/userCalls'
-import UserItem from '../components/UserItem'
+import UserItem from '../components/user/UserItem'
 
 
 function UserList({ users, getUsers }) {

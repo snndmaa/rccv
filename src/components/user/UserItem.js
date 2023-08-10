@@ -1,7 +1,7 @@
 import React from 'react'
-import email_logo from '../assets/images/email_logo.png'
-import phone_logo from '../assets/images/phone_logo.png'
-import user_image from '../assets/images/user.png'
+import email_logo from '../../assets/images/logo/email_logo.png'
+import phone_logo from '../../assets/images/logo/phone_logo.png'
+import user_image from '../../assets/images/user.png'
 
 function UserItem({ user : { images, name, email, primaryContactInfo } }) {
   return (
