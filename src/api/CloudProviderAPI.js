@@ -1,6 +1,6 @@
 class CloudProviderAPI{
     baseUrl = 'https://api.euw2.pure.cloud'
-    static token = '48priXnDslGbluhbk3qgEH-l10MtcjhiiQAgSWSeXVr4ltUPlHxdO_8WDh8IAd66nHyZamHMFDBH9_VD_F6TXA'
+    static token = 'OSTAFHIm-s5lo9ncmjWQj6L9YLVjmoVvWOZLkedJBOoF4PCg066T9_o6er3SF1EeS066Rn-Hk5GdgXbhf6_JHQ'
 
     constructor(){
     }

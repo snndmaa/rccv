@@ -5,7 +5,7 @@ export const fetchUsers = async () => {
         const response = await fetch('https://api.euw2.pure.cloud/api/v2/users', {
             method: 'GET',
             headers: {
-                'Authorization': 'Bearer PLOdloXIJEGHxrdE9iwhJxtZvewwuy2UmdSDjFJO_PmBlzNch9TYtqwKLacTB88kusCaT86JRuiqh_ItNjRHpA'
+                'Authorization': 'Bearer OSTAFHIm-s5lo9ncmjWQj6L9YLVjmoVvWOZLkedJBOoF4PCg066T9_o6er3SF1EeS066Rn-Hk5GdgXbhf6_JHQ'
             }
         })
         if (!response.ok){

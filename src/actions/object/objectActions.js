@@ -8,10 +8,11 @@ export const setObjects = (data) => ({
     }
 })
 
-export const setDisplayPopup = (value1, value2) => ({
+export const setDisplayPopup = (value1, value2, value3) => ({
     type: SET_DISPLAY_POPUP,
     payload: {
         value1,
         value2,
+        value3
     },
 })

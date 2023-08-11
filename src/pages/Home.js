@@ -1,9 +1,14 @@
 import React from 'react'
 
+import Navbar from '../components/menu/Navbar'
+
+
 function Home() {
   return (
+    <>
+    <Navbar/>
     <div className="w-full h-screen flex justify-center items-center">
-        <div className="bg-gray-100 p-4 text-center w-1/2 h-1/3 flex flex-col justify-center items-center">
+        <div className="bg-gray-300 p-4 text-center w-1/2 h-1/3 flex flex-col justify-center items-center">
             <h1 className="text-3xl font-bold text-blue-600">
                 Welcome to the iRCCV Software
             </h1>
@@ -15,6 +20,7 @@ function Home() {
             <a className='text-red-800' href="/test">test</a>
         </div>
     </div>    
+    </>
   )
 }
 

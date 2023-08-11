@@ -9,7 +9,7 @@ function ContextMenu({ x, y, setDisplayPopup}) {
 
   const insertObjectState = (objectType) => {
     if (objectType === 'ListBox'){
-      setDisplayPopup(true, 'ListBox')
+      setDisplayPopup(true, 'StatSelect', null)
     }
   }
 

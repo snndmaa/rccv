@@ -6,3 +6,12 @@
 
 Tasks:
 - List of users for each division. Filter by division. Filter by status(OnQueue, OffQueue)
+
+Demo:
+- Select Agent
+- User Error
+- Color Change
+- Dashboard bg image change
+- Select Popup Zindex
+- listbox padding and border
+- Home Background Image

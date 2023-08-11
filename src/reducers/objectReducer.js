@@ -2,7 +2,7 @@ import { SET_OBJECT_DATA, SET_DISPLAY_POPUP } from "../actions/actionTypes"
 
 
 const initialState = {
-    displayPopup: [false, null],
+    displayPopup: [false, null, null],
     ListBoxes: [],
 }
 
@@ -34,7 +34,7 @@ const objectReducer = (state = initialState, action) => {
         case SET_DISPLAY_POPUP:
             return{ 
                 ...state, 
-                displayPopup: [action.payload.value1, action.payload.value2] 
+                displayPopup: [action.payload.value1, action.payload.value2, action.payload.value3] 
             }
         default:
             return state

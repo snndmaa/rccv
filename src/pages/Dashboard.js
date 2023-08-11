@@ -4,10 +4,10 @@ import { connect } from 'react-redux'
 import dashbg from '../assets/images/dashbg.png'
 import ContextMenu from '../components/menu/ContextMenu'
 import { setObjects } from '../actions/object/objectActions'
-import ListBoxPopup from '../components/popup/ListBoxPopup'
-import ListBox from '../components/draggable/ListBox'
+import ListBoxAgentSelect from '../components/popup/ListBoxAgentSelect'
+import ListBoxStatSelect from '../components/popup/ListBoxStatSelect'
+// import ListBox from '../components/draggable/ListBox'
 import Table from '../components/test/Table'
-import useDragger from '../hooks/useDragger'
 
 
 function Dashboard({ objects, users }) {
@@ -41,15 +41,22 @@ function Dashboard({ objects, users }) {
                 />
             )}
 
-            {objects.displayPopup[1] === 'ListBox'
-             ? <ListBoxPopup/>
+            {objects.displayPopup[1] === 'StatSelect'
+             ? <ListBoxStatSelect/>
              :''
+            }
+
+            {objects.displayPopup[1] === 'AgentSelect'
+              ? <ListBoxAgentSelect/>
+              :''
             }
 
             { objects.ListBoxes.length
               &&
               objects.ListBoxes.map((lbox)=> {
-                return <Table key={lbox.id} lbox={lbox}/>
+                if (lbox.display === true){
+                  return <Table key={lbox.id} lbox={lbox}/>
+                }
               })
             }           
 

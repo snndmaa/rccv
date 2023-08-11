@@ -1,7 +1,5 @@
 import React, {useState} from 'react'
 
-import ListBox from '../menu/ListBox'
-
 
 function TableHead({ columns, handleSorting }) {
     const [sortField, setSortField] = useState('')

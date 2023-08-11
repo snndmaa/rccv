@@ -6,9 +6,10 @@ import CloudProviderAPI from '../../api/CloudProviderAPI'
 import { getUsers } from '../../actions/user/userActions'
 
 
-function ListBoxPopup({ objects, setObjects, setDisplayPopup, getUsers, users }) {
+function ListBoxStatSelect({ objects, setObjects, setDisplayPopup, getUsers, users }) {
   const [checkedList, setCheckedList] = useState({})
-  const id = objects.ListBoxes.length + 1  
+  const index = objects.ListBoxes.length + 1  
+  const id = `listbox${index}`
 
   const handleBoxCheck = (event) => {
     const checkedValue = event.target.checked
@@ -20,17 +21,15 @@ function ListBoxPopup({ objects, setObjects, setDisplayPopup, getUsers, users })
     })
   }
 
-  const handleSubmit = async () => {
-    setDisplayPopup(false, null)
+  const handleSubmit = () => {
+    setDisplayPopup(true, 'AgentSelect', id)
 
     setObjects({
-      id: `listbox${id}`,
+      id: id,
+      display: false,
       objectType: 'ListBox',
-      statSelection: checkedList
+      statSelection: checkedList,
     })
-    
-    const users_object = await new CloudProviderAPI().getUsers()
-    getUsers(users_object.entities)
   }
 
 
@@ -65,4 +64,4 @@ const mapStateToProps = (state) => {
   }
 }
 
-export default connect(mapStateToProps, { setObjects, setDisplayPopup, getUsers })(ListBoxPopup)
+export default connect(mapStateToProps, { setObjects, setDisplayPopup, getUsers })(ListBoxStatSelect)
